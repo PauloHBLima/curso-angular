@@ -6,12 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./first-component.component.scss']
 })
 export class FirstComponentComponent implements OnInit {
-name: string = 'Paulo';
-age: number = 30;
-job = 'Cadista';
-hobbies = ['Correr', ' Desenhar', 'Assistir Anime', 'Musculação']
+  name: string = 'Paulo';
+  age: number = 30;
+  job = 'Cadista';
+  hobbies = ['Correr', ' Desenhar', 'Assistir Anime', 'Musculação']
+  car = {
+    nameCar: 'Porshe',
+    yearCar: 2014
+  }
 
-constructor() {};
-ngOnInit(): void {};
+  constructor() { };
+  ngOnInit(): void { };
 
 }
