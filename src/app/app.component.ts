@@ -11,4 +11,10 @@ export class AppComponent {
   nota = 10;
   nomefei = 'ze bonitinho'
   title = 'curso-angular';
+  nickName = 'Paulo';
+  userData = {
+    email: 'paulo@hotmail.com',
+  profissao: 'programador',
+    idade: 29
+  }
 }
