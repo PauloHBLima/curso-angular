@@ -9,6 +9,6 @@ export class AppComponent {
   userName = "Henrique";
   jogador = 'Cristiano Ronaldo';
   nota = 10;
-
+  nomefei = 'ze bonitinho'
   title = 'curso-angular';
 }

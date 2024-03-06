@@ -9,8 +9,9 @@ export class ParentDataComponent implements OnInit {
   @Input() name: string = ''
   @Input() sobrenome: string = ''
   @Input() resultado: number = 0
+  @Input() apelido: string = ''
 
-  constructor() { }
+    constructor() { }
   ngOnInit(): void {
 
   }
