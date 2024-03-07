@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class EventosComponent implements OnInit {
 
   show: boolean = false;
+  showColorDanger = false;
+
 
   constructor() { }
 
@@ -15,5 +17,9 @@ export class EventosComponent implements OnInit {
 
   showMessage(): void {
     this.show = !this.show; //toogle message
+  }
+  showColor(): void {
+    this.showColorDanger = !this.showColorDanger;
+
   }
 }

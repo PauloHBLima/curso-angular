@@ -1,4 +1,9 @@
 <div class="class">
   <p *ngIf="show">Exibindo mensagem!</p>
   <button (click)="showMessage()">Clique em mim!</button>
+<div *ngIf="showColorDanger">
+  <p class="text-danger">exibindo a cor do perigo</p>
+</div>
+<button class="text-attention" (click)="showColor()">Mudando de cor</button>
+
 </div>
