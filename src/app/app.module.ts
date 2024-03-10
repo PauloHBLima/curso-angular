@@ -9,6 +9,11 @@ import { ParentDataSecondComponent } from './components/parent-data-second/paren
 import { DirectivesComponent } from './components/directives/directives.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventosComponent } from './components/eventos/eventos.component';
+import { EventostwoComponent } from './components/eventostwo/eventostwo.component';
+import { EmitterComponent } from './components/emitter/emitter.component';
+import { ChangeNumberComponent } from './components/change-number/change-number.component';
+import { NumberParComponent } from './components/number-par/number-par.component';
+import { ChangeNumberParComponent } from './components/change-number-par/change-number-par.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { EventosComponent } from './components/eventos/eventos.component';
     ParentDataSecondComponent,
     DirectivesComponent,
     IfRenderComponent,
-    EventosComponent
+    EventosComponent,
+    EventostwoComponent,
+    EmitterComponent,
+    ChangeNumberComponent,
+    NumberParComponent,
+    ChangeNumberParComponent
   ],
   imports: [
     BrowserModule,
