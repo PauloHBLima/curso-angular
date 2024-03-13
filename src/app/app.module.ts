@@ -14,6 +14,7 @@ import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { NumberParComponent } from './components/number-par/number-par.component';
 import { ChangeNumberParComponent } from './components/change-number-par/change-number-par.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ChangeNumberParComponent } from './components/change-number-par/change-
     EmitterComponent,
     ChangeNumberComponent,
     NumberParComponent,
-    ChangeNumberParComponent
+    ChangeNumberParComponent,
+    ListRenderComponent
   ],
   imports: [
     BrowserModule,
