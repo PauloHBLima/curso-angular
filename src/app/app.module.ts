@@ -15,6 +15,7 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
 import { NumberParComponent } from './components/number-par/number-par.component';
 import { ChangeNumberParComponent } from './components/change-number-par/change-number-par.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
+import { PipesComponent } from './components/pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
     ChangeNumberComponent,
     NumberParComponent,
     ChangeNumberParComponent,
-    ListRenderComponent
+    ListRenderComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
