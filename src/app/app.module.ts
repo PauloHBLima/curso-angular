@@ -18,6 +18,7 @@ import { ChangeNumberParComponent } from './components/change-number-par/change-
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { ListPeopleComponent } from './components/list-people/list-people.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
     ChangeNumberParComponent,
     ListRenderComponent,
     PipesComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    ListPeopleComponent
   ],
   imports: [
     BrowserModule,

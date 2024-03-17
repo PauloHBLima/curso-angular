@@ -1,0 +1,12 @@
+<div class="class">
+  <h1>Pessoas:</h1>
+  <ul>
+    <li *ngFor="let people of peoples">
+      Nome: {{people.name}} |
+      Sobrenome: {{people.nickname}} |
+      Idade: {{people.age}} |
+      Raça:{{people.race}} |
+      <button (click)="createPeople">Criar Cadastro</button>
+    </li>
+  </ul>
+</div>
