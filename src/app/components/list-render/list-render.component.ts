@@ -1,7 +1,6 @@
 import { ListService } from './../../services/list.service';
 import { Component, OnInit } from '@angular/core';
 import { Animal } from 'src/app/Animal';
-import { People } from 'src/app/People';
 
 
 @Component({

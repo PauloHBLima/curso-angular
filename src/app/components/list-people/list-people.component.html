@@ -2,11 +2,12 @@
   <h1>Pessoas:</h1>
   <ul>
     <li *ngFor="let people of peoples">
-      Nome: {{people.name}} |
+      Nome: {{people.name}} | <input type="text" name="{{people.name}}">
       Sobrenome: {{people.nickname}} |
       Idade: {{people.age}} |
       Raça:{{people.race}} |
-      <button (click)="createPeople">Criar Cadastro</button>
+      <button (click)="atualizaPeople(people)">Atualizar Nome</button>
+
     </li>
   </ul>
 </div>

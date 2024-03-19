@@ -7,6 +7,7 @@ import { People } from '../People';
 })
 export class ListService {
 
+
   constructor() { }
 
   remove(animals: Animal[], animal: Animal) {
@@ -14,7 +15,10 @@ export class ListService {
     return animals.filter((a) => animal.name !== a.name);
   }
 
- /*  create(peoples: People[], people: People) {
-    return people.push((p) => people.name, people.nickname, people.age, people.race)
-  } */
+  update(peoples: People[], people: People) {
+    /* const arrayDePessoas = { name: String, nickname: String, age: Number, race: String}
+    { ...arrayDePessoas, name: people.name, age: people.age, race: people.race} */
+    return peoples.map((p) => people.name === p.name)
+
+  }
 }
