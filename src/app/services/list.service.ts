@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Animal } from '../Animal';
+import { Anime } from '../Anime';
 
 
 import { HttpClient, HttpHeaders } from '@angular/common/http';
@@ -22,6 +23,10 @@ export class ListService {
 
   getAll(): Observable<Animal[]> {
     return this.http.get<Animal[]>(this.apiUrl)
+  }
+
+  getAllAnime(): Observable<Anime[]> {
+    return this.http.get<Anime[]>(this.apiUrl)
   }
 }
 

@@ -20,6 +20,7 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { ListPeopleComponent } from './components/list-people/list-people.component';
+import { ListAnimeRenderComponent } from './components/list-anime-render/list-anime-render.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ListPeopleComponent } from './components/list-people/list-people.compon
     ListRenderComponent,
     PipesComponent,
     TwoWayBindingComponent,
-    ListPeopleComponent
+    ListPeopleComponent,
+    ListAnimeRenderComponent
   ],
   imports: [
     BrowserModule,

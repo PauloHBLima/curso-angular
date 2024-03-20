@@ -10,6 +10,7 @@ import { EventosComponent } from './components/eventos/eventos.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { ListAnimeRenderComponent } from './components/list-anime-render/list-anime-render.component';
 
 const routes: Routes = [
   { path: '', component: FirstComponentComponent },
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'ifRender', component: IfRenderComponent },
   { path: 'parentData', component: ParentDataComponent },
   { path: 'twoWay', component: TwoWayBindingComponent },
+  { path: 'animes', component: ListAnimeRenderComponent,}
 ];
 
 @NgModule({
