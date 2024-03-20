@@ -24,7 +24,7 @@ export class ListPeopleComponent implements OnInit {
 
   atualizaPeople(people: People) {
     console.log('atualizando pessoa')
-    this.listService.update(this.peoples, people);
+    /* this.listService.update(this.peoples, people); */
     }
   }
 
