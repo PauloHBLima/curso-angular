@@ -11,21 +11,13 @@ export class ListAnimeRenderComponent implements OnInit {
 
 animes: Anime[] = [];
 
-listAnimes = ''
-
 constructor(private listService: ListService) {
-  this.getAnime();
-
+  this.getAnimes();
 }
 ngOnInit(): void {}
 
-
-showAge(anime: Anime): void {
-  this.listAnimes = `O desenho ${anime.name} tem ${anime.age} anos`
-}
-
-getAnime(): void {
-this.listService.getAllAnime().subscribe((anime) => (this.animes = anime))
+getAnimes(): void {
+this.listService.getAll().subscribe((animes) => (this.animes = animes))
 }
 }
 

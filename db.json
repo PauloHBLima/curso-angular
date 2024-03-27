@@ -31,36 +31,39 @@
       "age": 4444
     }
   ],
-  "Animes": [
+
+   "animes": [
     {
       "id": 1,
       "name": "Naruto",
-      "category": "ninja",
+      "type": "ninja",
       "age": 2015
     },
     {
       "id": 2,
       "name": "Dbz",
-      "category": "artesMaciais",
+      "type": "artesMaciais",
       "age": 1975
     },
     {
       "id": 3,
       "name": "Bleach",
-      "category": "shinigami",
+      "type": "shinigami",
       "age": 1990
     },
     {
       "id": 4,
       "name": "OnePiece",
-      "category": "pirata",
+      "type": "pirata",
       "age": 1985
     },
     {
       "id": 5,
       "name": "Cavaleiros",
-      "category": "cavaleiro",
-      "age": 1975
+      "type": "cavaleiro",
+      "age": 1975     
     }
   ]
+
 }
+
