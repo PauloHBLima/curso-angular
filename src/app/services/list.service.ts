@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ListService {
-  private apiUrl = 'http://localhost:3000/animes';
+  private apiUrl = 'http://localhost:3000/animals';
   private apiUrlTwo = 'http://localhost:3000/animes';
 
 
@@ -22,12 +22,12 @@ export class ListService {
     return animals.filter((a) => animal.name !== a.name);
   }
 
-  /* getAll(): Observable<Animal[]> {
+  getAll(): Observable<Animal[]> {
     return this.http.get<Animal[]>(this.apiUrl)
-  } */
+  }
 
-  getAll(): Observable<Anime[]> {
-    return this.http.get<Anime[]>(this.apiUrl)
+  getAllAnime(): Observable<Anime[]> {
+    return this.http.get<Anime[]>(this.apiUrlTwo)
   }
 }
 

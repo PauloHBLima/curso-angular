@@ -17,7 +17,7 @@ constructor(private listService: ListService) {
 ngOnInit(): void {}
 
 getAnimes(): void {
-this.listService.getAll().subscribe((animes) => (this.animes = animes))
+this.listService.getAllAnime().subscribe((animes) => (this.animes = animes))
 }
 }
 
