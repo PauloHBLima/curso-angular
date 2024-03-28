@@ -1,69 +1,42 @@
 {
   "animals": [
     {
-      "id": 1,
-      "name": "Turca",
-      "type": "dog",
-      "age": 1222
-    },
-    {
-      "id": 2,
-      "name": "Tom",
-      "type": "cat",
-      "age": 1111
-    },
-    {
-      "id": 3,
-      "name": "Gojo",
-      "type": "dog",
-      "age": 2222
-    },
-    {
-      "id": 4,
-      "name": "Bob",
-      "type": "Horse",
-      "age": 3333
-    },
-    {
-      "id": 5,
+      "id": "5",
       "name": "Paco",
       "type": "Bird",
       "age": 4444
     }
   ],
-
-   "animes": [
+  "animes": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Naruto",
       "type": "ninja",
       "age": 2015
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Dbz",
       "type": "artesMaciais",
       "age": 1975
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Bleach",
       "type": "shinigami",
       "age": 1990
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "OnePiece",
       "type": "pirata",
       "age": 1985
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Cavaleiros",
       "type": "cavaleiro",
-      "age": 1975     
+      "age": 1975
     }
   ]
-
 }
-
