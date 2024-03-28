@@ -11,6 +11,7 @@ import { IfRenderComponent } from './components/if-render/if-render.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { ListAnimeRenderComponent } from './components/list-anime-render/list-anime-render.component';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
 
 const routes: Routes = [
   { path: '', component: FirstComponentComponent },
@@ -22,7 +23,8 @@ const routes: Routes = [
   { path: 'ifRender', component: IfRenderComponent },
   { path: 'parentData', component: ParentDataComponent },
   { path: 'twoWay', component: TwoWayBindingComponent },
-  { path: 'animes', component: ListAnimeRenderComponent,}
+  { path: 'animes', component: ListAnimeRenderComponent},
+  { path: 'list/:id', component: ItemDetailComponent},
 ];
 
 @NgModule({

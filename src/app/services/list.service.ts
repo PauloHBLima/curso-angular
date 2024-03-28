@@ -29,6 +29,10 @@ export class ListService {
   getAllAnime(): Observable<Anime[]> {
     return this.http.get<Anime[]>(this.apiUrlTwo)
   }
+
+  getItem(id: number): Observable<Animal> {
+    return this.http.get<Animal>(`${this.apiUrl}/${id}`);
+  }
 }
 
 
